@@ -37,6 +37,24 @@ Run `mvn clean install` in the Maven project directory and wait for the compilat
 Swagger API is enabled in application. Please use below URL to access Swagger UI to test REST API's
 
 ```Swagger URL - http://localhost:8081/swagger-ui/#/```
+```
+1. Add Tasks -
+ [POST] - http://localhost:8081/api/tasks
+ [Request Payload] - {  "completed": true,  "title": "Task 1"}
+
+2. Update Tasks -
+ [PUT] - http://localhost:8081/api/tasks/{id}
+ [Request Payload] - {  "completed": true,  "title": "Task 1"}
+
+3. Delete Tasks -
+ [DELETE] - http://localhost:8081/api/tasks/{id}
+
+4. Get Task for given Id -
+ [GET] - http://localhost:8081/api/tasks/{id}
+
+5. Get all tasks -
+ [GET] - http://localhost:8081/api/tasks
+```
 
 Run `mvn test` to execute below mentioned test cases.
 1. TasksApplicationTests.java
