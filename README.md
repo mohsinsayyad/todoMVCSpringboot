@@ -46,13 +46,13 @@ Run `mvn test` to execute below mentioned test cases.
 5. TaskRepositoryTests.java
 
 ```
-[[1;34mINFO[m] Results:
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1;32mTests run: 20, Failures: 0, Errors: 0, Skipped: 0[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------	
 ```
 
 Spring Boot features used in application:
@@ -62,5 +62,6 @@ Spring Boot features used in application:
 4. Swagger2
 5. Lombok
 6. H2 inmemory database.
+7. Spring AOP for logging.
 
 
