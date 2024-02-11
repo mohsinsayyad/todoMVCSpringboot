@@ -82,4 +82,8 @@ Spring Boot features used in application:
 6. H2 inmemory database.
 7. Spring AOP for logging.
 
+```
+Flow Diagram
+```
 
+![image](https://github.com/mohsinsayyad/todoMVCSpringboot/assets/117346117/10d017c1-14ea-49d4-946e-7fec06bb0e05)
